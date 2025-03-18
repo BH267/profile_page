@@ -99,11 +99,54 @@ class HomeScreen extends StatelessWidget {
               ),
               SizedBox(height: 64),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
                     children: [
                       Row(
-                        children: [],
+                        children: [
+                          Icon( Icons.location_on_outlined, color: Colors.grey[700],),
+                          SizedBox(width: 4,),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                            Text(
+                              "Address",
+                              style: TextStyle(
+                                fontSize: 24,
+                              ),
+                            ),
+                            Text(
+                              "House 2 Road 5\nmorroco , Agadir\nalhassan II Hospital",
+                              style: TextStyle(
+                                color: Colors.grey[700] ,
+                              ),
+                            ),
+                          ],),
+                        ],
+                      ),
+                      SizedBox(height: 8,),
+                      Row(
+                        children: [
+                          Icon( Icons.location_on_outlined, color: Colors.grey[700],),
+                          SizedBox(width: 4,),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                            Text(
+                              "Address",
+                              style: TextStyle(
+                                fontSize: 24,
+                              ),
+                            ),
+                            Text(
+                              "House 2 Road 5\nmorroco , Agadir\nalhassan II Hospital",
+                              style: TextStyle(
+                                color: Colors.grey[700] ,
+                              ),
+                            ),
+                          ],),
+                        ],
                       ),
                     ],
                   ),
